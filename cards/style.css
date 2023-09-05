@@ -1,0 +1,112 @@
+body {
+  padding: 0;
+  margin: 0;
+  font-family: serif;
+}
+.box-container {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: peachpuff;
+  padding: 100px 100px;
+}
+.box-1,
+.box-2,
+.box-3,
+.box-4,
+.box-5,
+.box-6 {
+  background-color: lightskyblue;
+  border: 5px solid white;
+  border-radius: 20px;
+  width: 325px;
+  height: 395px ;
+  margin: 20px;
+}
+.flex {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 20px;
+  height: 68px;
+}
+.red {
+  display: inline;
+  background-color: red;
+  padding: 5px 10px;
+  margin-bottom: 20px;
+}
+.arrow {
+  display: flex;
+  justify-content: end;
+  padding: 0px 10px;
+}
+.zero{
+  margin-top: 7px;
+}
+.arrow p {
+  padding: 0px;
+  margin-bottom: 10px;
+  font-size: 25px;
+  font-weight: bold;
+}
+.dot {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.dot div{
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: black;
+  margin: 30px 1px;
+}
+.dot span{
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: grey;
+    margin: 30px 1px;
+  }
+.footer {
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  background-color: aliceblue;
+  border-radius: 15px;
+}
+.left {
+  display: flex;
+}
+.icon-content {
+  margin-top: 10px;
+}
+.icon {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: aquamarine;
+  margin: 16px 10px;
+}
+.space {
+  margin-left: 12px;
+  width: 80px;
+}
+.btn {
+  padding-top: 25px;
+}
+.btn button {
+  padding: 10px 18px;
+  background-color: black;
+  border-radius: 25px;
+  color: white;
+  font-size: 15px;
+}
+.heading {
+  padding-left: 20px;
+  width: 200px;
+  height: 55px;
+}
+.heading h2 {
+  font-size: 35px;
+  font-weight: lighter;
+}
